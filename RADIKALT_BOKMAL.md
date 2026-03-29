@@ -75,7 +75,7 @@ For en LLM er hovedregelen enkel: hvis du først bruker radikalt hunkjønn, bruk
 
 Flere eksempelpar: *en bok - boka*, *en dør - døra*, *en gate - gata*, *en hytte - hytta*, *en stue - stua*, *en kake - kaka*, *en natt - natta*, *en bygd - bygda*
 
-Eksempler på hunkjønnsord: *avisa*, *blokka*, *boka*, *brua*, *bygda*, *bygninga*, *bølga*, *børsa*, *bøtta*, *dama*, *dokka*, *drifta*, *dua*, *døra*, *elva*, *enga*, *evna*, *fella*, *flata*, *flua*, *fløyta*, *forandringa*, *forklaringa*, *forma*, *fortellinga*, *frakta*, *furua*, *gata*, *gava*, *greina*, *grensa*, *gropa*, *gruppa*, *gryta*, *grøfta*, *gåsa*, *handa*, *heia*, *helga*, *helsa*, *historia*, *hytta*, *hånda*, *høna*, *jakka*, *jenta*, *jorda*, *kaka*, *kassa*, *kirka*, *kista*, *klokka*, *kona*, *krisa*, *kråka*, *kua*, *kvinna*, *lampa*, *linja*, *lista*, *lomma*, *lua*, *lukta*, *lønna*, *makta*, *marka*, *mugga*, *musa*, *mølla*, *natta*, *nota*, *nåla*, *oppgava*, *pakka*, *panna*, *plata*, *pumpa*, *rekka*, *renna*, *renta*, *rota*, *røra*, *saka*, *senga*, *setninga*, *sida*, *skia*, *skildringa*, *skrifta*, *skåla*, *sletta*, *smørja*, *snella*, *sola*, *stranda*, *strømpa*, *stua*, *søstra*, *tanna*, *tavla*, *tegninga*, *tida*, *trappa*, *uka*, *utviklinga*, *verda*, *veska*, *visa*, *volla*, *vogga*, *vurderinga*, *åra*
+Eksempler på hunkjønnsord: *avisa*, *blokka*, *boka*, *brua*, *bygda*, *bygninga*, *bølga*, *børsa*, *bøtta*, *dama*, *dokka*, *drifta*, *dua*, *døra*, *elva*, *enga*, *evna*, *fella*, *flata*, *flua*, *fløyta*, *forandringa*, *forklaringa*, *forma*, *fortellinga*, *frakta*, *furua*, *gata*, *gava*, *greina*, *grensa*, *gropa*, *gruppa*, *gryta*, *grøfta*, *gåsa*, *handa*, *heia*, *helga*, *helsa*, *historia*, *hytta*, *hånda*, *høna*, *jakka*, *jenta*, *jorda*, *kaka*, *kassa*, *kirka*, *kista*, *kjerna*, *klokka*, *kona*, *krisa*, *kråka*, *kua*, *kvinna*, *lampa*, *linja*, *lista*, *lomma*, *lua*, *lukta*, *lønna*, *makta*, *marka*, *mugga*, *musa*, *mølla*, *natta*, *nota*, *nåla*, *oppgava*, *pakka*, *panna*, *plata*, *pumpa*, *rekka*, *renna*, *renta*, *rota*, *røra*, *saka*, *senga*, *setninga*, *sida*, *skia*, *skildringa*, *skrifta*, *skåla*, *sletta*, *smørja*, *snella*, *sola*, *stranda*, *strømpa*, *stua*, *søstra*, *tanna*, *tavla*, *tegninga*, *tida*, *trappa*, *uka*, *utviklinga*, *verda*, *veska*, *visa*, *volla*, *vogga*, *vurderinga*, *åra*
 
 Hunkjønnsord på *-ing* og *-ning*: *beretninga*, *etableringa*, *finansieringa*, *forklaringa*, *fortellinga*, *hoppinga*, *kastinga*, *legninga*, *løsninga*, *meldinga*, *overbevisninga*, *regjeringa*, *setninga*, *tegninga*, *treninga*, *utbygginga*, *utviklinga*, *vurderinga*, *åpninga*
 
@@ -98,6 +98,14 @@ Setningseksempler:
 - *Spørsmåla kom tett, men svara var uklare.*
 - *Bilda og karta lå utover bordet.*
 - *Romma i huset var små, men vindua var store.*
+
+### Andre substantiv bestemt form flertall på *-a* som er tillatt i bokmål
+
+Tillatte former: *skoa*, *hønsa*
+
+### Substantiv bestemt form flertall på *-a* som ikke er tillatt i bokmål
+
+Ikke tillatte former: *~~gjessa~~*, *~~musa~~* (bestemt form flertall av *mus*), *~~penga~~*
 
 ### Svake verb på *-a* i fortid
 
@@ -292,7 +300,7 @@ Her er noen hele setninger som kan brukes som eksempelmodeller:
 
 Her er feil som går igjen når modeller prøver å skrive radikalt bokmål:
 
-- De glir over i nynorsk. Typiske tegn er *ikkje*, *eg*, *me*, *dei*, *eitt*, *mykje*, *utan*, *saman*, *kjem*, adjektiv på *-leg*.
+- De glir over i nynorsk. Typiske tegn er *~~ikkje~~*, *~~eg~~*, *~~me~~*, *~~dei~~*, *~~eitt~~*, *~~mykje~~*, *~~utan~~*, *~~saman~~*, *~~kjem~~*, adjektiv på *-leg*.
 - De blander normert bokmål med dialektstavning. Typiske tegn er *itte*, *hu*, *ække*, *bærre*, *ska*.
 - De bruker noen radikale former, men lar resten av teksten falle tilbake til mer konservativt bokmål uten mønster. Eksempel: *ei bok*, *jenta*, men *solen*, *boken*, *kastet* litt seinere.
 - De overdriver *-a* og setter endinga på ord som ikke har det mønsteret i bokmål.
