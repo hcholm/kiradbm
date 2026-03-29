@@ -300,8 +300,8 @@ Her er noen hele setninger som kan brukes som eksempelmodeller:
 
 Her er feil som går igjen når modeller prøver å skrive radikalt bokmål:
 
-- De glir over i nynorsk. Typiske tegn er *~~ikkje~~*, *~~eg~~*, *~~me~~*, *~~dei~~*, *~~eitt~~*, *~~mykje~~*, *~~utan~~*, *~~saman~~*, *~~kjem~~*, adjektiv på *-leg*.
-- De blander normert bokmål med dialektstavning. Typiske tegn er *itte*, *hu*, *ække*, *bærre*, *ska*.
+- De glir over i nynorsk. Typiske tegn er *~~ikkje~~*, *~~eg~~*, *~~me~~*, *~~dei~~*, *~~eitt~~*, *~~mykje~~*, *~~utan~~*, *~~saman~~*, *~~kjem~~*, adjektiv på *~~-leg~~*.
+- De blander normert bokmål med dialektstavning. Typiske tegn er *~~itte~~*, *~~hu~~*, *~~ække~~*, *~~bærre~~*, *~~ska~~*.
 - De bruker noen radikale former, men lar resten av teksten falle tilbake til mer konservativt bokmål uten mønster. Eksempel: *ei bok*, *jenta*, men *solen*, *boken*, *kastet* litt seinere.
 - De overdriver *-a* og setter endinga på ord som ikke har det mønsteret i bokmål.
 - De antar at alle diftongformer er tillatt bare fordi de ligner på nynorsk.
