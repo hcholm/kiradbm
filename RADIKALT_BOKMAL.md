@@ -75,7 +75,7 @@ For en LLM er hovedregelen enkel: hvis du først bruker radikalt hunkjønn, bruk
 
 Flere eksempelpar: *en bok - boka*, *en dør - døra*, *en gate - gata*, *en hytte - hytta*, *en stue - stua*, *en kake - kaka*, *en natt - natta*, *en bygd - bygda*
 
-Eksempler på hunkjønnsord: *avisa*, *blokka*, *boka*, *brua*, *bygda*, *bygninga*, *bølga*, *børsa*, *bøtta*, *dama*, *dokka*, *drifta*, *dua*, *døra*, *elva*, *enga*, *evna*, *fella*, *flata*, *flua*, *fløyta*, *forandringa*, *forklaringa*, *forma*, *fortellinga*, *frakta*, *furua*, *gata*, *gava*, *greina*, *grensa*, *gropa*, *gruppa*, *gryta*, *grøfta*, *gåsa*, *handa*, *heia*, *helga*, *helsa*, *historia*, *hytta*, *hånda*, *høna*, *jakka*, *jenta*, *jorda*, *kaka*, *kassa*, *kirka*, *kista*, *kjerna*, *klokka*, *kona*, *krisa*, *kråka*, *kua*, *kvinna*, *lampa*, *linja*, *lista*, *lomma*, *lua*, *lukta*, *lønna*, *makta*, *marka*, *mugga*, *musa*, *mølla*, *natta*, *nota*, *nåla*, *oppgava*, *pakka*, *panna*, *plata*, *pumpa*, *rekka*, *renna*, *renta*, *rota*, *røra*, *saka*, *senga*, *setninga*, *sida*, *skia*, *skildringa*, *skrifta*, *skåla*, *sletta*, *smørja*, *snella*, *sola*, *stranda*, *strømpa*, *stua*, *søstra*, *tanna*, *tavla*, *tegninga*, *tida*, *trappa*, *uka*, *utviklinga*, *verda*, *veska*, *visa*, *volla*, *vogga*, *vurderinga*, *åra*
+Eksempler på hunkjønnsord: *avisa*, *blokka*, *boka*, *brua*, *bygda*, *bygninga*, *bølga*, *børsa*, *bøtta*, *dama*, *dokka*, *drifta*, *dua*, *døra*, *elva*, *enga*, *evna*, *fella*, *flata*, *flua*, *fløyta*, *forandringa*, *forklaringa*, *forma*, *fortellinga*, *frakta*, *furua*, *gata*, *gava*, *greina*, *grensa*, *gropa*, *gruppa*, *gryta*, *grøfta*, *gåsa*, *handa*, *heia*, *helga*, *helsa*, *historia*, *hytta*, *hånda*, *høna*, *jakka*, *jakta*, *jenta*, *jorda*, *kaka*, *kassa*, *kirka*, *kista*, *kjerna*, *klokka*, *kona*, *krisa*, *kråka*, *kua*, *kvinna*, *lampa*, *linja*, *lista*, *lomma*, *lua*, *lukta*, *lønna*, *makta*, *marka*, *mugga*, *musa*, *mølla*, *natta*, *nota*, *nåla*, *oppgava*, *pakka*, *panna*, *plata*, *pumpa*, *rekka*, *renna*, *renta*, *rolla*, *rota*, *røra*, *saka*, *senga*, *setninga*, *sida*, *skia*, *skildringa*, *skrifta*, *skåla*, *sletta*, *smørja*, *snella*, *sola*, *stranda*, *strømpa*, *stua*, *søstra*, *tanna*, *tavla*, *tegninga*, *tida*, *trappa*, *uka*, *utviklinga*, *verda*, *veska*, *visa*, *volla*, *vogga*, *vurderinga*, *åra*
 
 Hunkjønnsord på *-ing* og *-ning*: *beretninga*, *etableringa*, *finansieringa*, *forklaringa*, *fortellinga*, *hoppinga*, *kastinga*, *legninga*, *løsninga*, *meldinga*, *overbevisninga*, *regjeringa*, *setninga*, *tegninga*, *treninga*, *utbygginga*, *utviklinga*, *vurderinga*, *åpninga*
 
@@ -106,6 +106,13 @@ Tillatte former: *skoa*, *hønsa*
 ### Substantiv bestemt form flertall på *-a* som ikke er tillatt i bokmål
 
 Ikke tillatte former: *~~gjessa~~*, *~~musa~~* (bestemt form flertall av *mus*), *~~penga~~*
+
+### Noen substantiv som bare er hankjønn
+
+Disse er hunkjønn i noen talemål, men bare hankjønn i bokmål:
+
+*scenen*
+*dialekten*, *oversikten*
 
 ### Svake verb på *-a* i fortid
 
