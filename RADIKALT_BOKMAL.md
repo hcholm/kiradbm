@@ -101,7 +101,7 @@ Setningseksempler:
 
 ### Andre substantiv bestemt form flertall på *-a* som er tillatt i bokmål
 
-Tillatte former: *skoa*, *hønsa*
+Tillatte former: *hønsa*, *skoa*, *tinga*
 
 ### Substantiv bestemt form flertall på *-a* som ikke er tillatt i bokmål
 
