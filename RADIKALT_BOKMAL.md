@@ -2,7 +2,7 @@
 
 Denne veilederen er laga for språkmodeller som skal skrive normert bokmål med radikale ordformer. Målet er ikke å presse fram en bestemt smak eller tone, men å gjøre det lettere å velge former som ligger nær talemål og som er tillatt i bokmålsnormen.
 
-Radikalt bokmål er ikke et eget skriftspråk ved sida av bokmål. Det er bokmål. Det som skiller det fra mer konservativt bokmål, er først og fremst hvilke valgmuligheter en bruker. En radikal bokmålstekst kan derfor godt være normert og formell, samtidig som den bruker former som `ei bok`, `boka`, `kasta`, `skreiv`, `sjøl` og `fram`.
+Radikalt bokmål er ikke et eget skriftspråk ved sida av bokmål. Det er bokmål. Det som skiller det fra mer konservativt bokmål, er først og fremst hvilke valgmuligheter en bruker. En radikal bokmålstekst kan derfor godt være normert og formell, samtidig som den bruker former som *ei bok*, *boka*, *kasta*, *skreiv*, *sjøl* og *fram*.
 
 Det viktigste for en LLM er dette:
 
@@ -16,174 +16,159 @@ Det viktigste for en LLM er dette:
 
 Radikalt bokmål er bokmål som tar i bruk talemålsnære og ofte nynorsknære former som er godkjent i den offisielle bokmålsnormen. Mange av de mest synlige trekka er:
 
-- hunkjønn med `ei` og `-a`: `ei jente`, `jenta`
-- a-endinger i verb: `kasta`, `åpna`, `henta`
-- a-endinger i partisipper: `lukka`, `stressa`
-- diftonger: `stein`, `bein`, `heime`, `røyk`
-- sterke verb i preteritumsformer: `skreiv`, `greip`, `krøyp`, `frøys`
-- talemålsnære enkeltformer: `sjøl`, `mjølk`, `fram`, `gammal`, `vatn`
+- hunkjønn med *ei* og *-a*: *ei jente*, *jenta*
+- a-endinger i verb: *kasta*, *åpna*, *henta*
+- a-endinger i partisipper: *lukka*, *stressa*
+- diftonger: *stein*, *bein*, *heime*, *røyk*
+- sterke verb i preteritumsformer: *skreiv*, *greip*, *krøyp*, *frøys*
+- talemålsnære enkeltformer: *sjøl*, *mjølk*, *fram*, *gammal*, *vatn*
 
-En tekst trenger ikke bruke alle disse trekka samtidig for å kunne kalles radikalt bokmål. Mange skriver for eksempel `boka` og `kasta`, men ikke `veit`. Andre bruker `fram` og `sjøl`, men holder seg til `vet`. Veilederen her er derfor laga som et kart over muligheter, ikke som ei tvangsliste.
+En tekst trenger ikke bruke alle disse trekka samtidig for å kunne kalles radikalt bokmål. Mange skriver for eksempel *boka* og *kasta*, men ikke *veit*. Andre bruker *fram* og *sjøl*, men holder seg til *vet*. Veilederen her er derfor laga som et kart over muligheter, ikke som ei tvangsliste.
 
-Radikalt bokmål er ikke en stil. Det er et sett med formvalg. En tekst med radikale former kan være like formell, nøktern og saklig som en tekst med konservative former. Denne veilederen handler om hvilke normerte bokmålsformer en velger, ikke om tone, register eller sjanger. Når en LLM skriver `boka` i stedet for `boken`, skal ikke resten av teksten bli mer uformell av den grunn.
+Radikalt bokmål er ikke en stil. Det er et sett med formvalg. En tekst med radikale former kan være like formell, nøktern og saklig som en tekst med konservative former. Denne veilederen handler om hvilke normerte bokmålsformer en velger, ikke om tone, register eller sjanger. Når en LLM skriver *boka* i stedet for *boken*, skal ikke resten av teksten bli mer uformell av den grunn.
 
 ## Arbeidsprinsipper for LLM-er
 
 ### 1. Hold deg innafor bokmålsnormen
 
-Radikalt bokmål er normert bokmål. Former som `ikkje`, `me`, `dykk`, `kjem`, `mykje`, `utan`, `saman` og `eitt` hører hjemme i nynorsk, ikke i bokmål. Dialektformer som `hu`, `itte`, `ække`, `bærre` og `ska` er heller ikke normert bokmål.
+Radikalt bokmål er normert bokmål. Former som *ikkje*, *me*, *dykk*, *kjem*, *mykje*, *utan*, *saman* og *eitt* hører hjemme i nynorsk, ikke i bokmål. Dialektformer som *hu*, *itte*, *ække*, *bærre* og *ska* er heller ikke normert bokmål.
 
 ### 2. Velg mønster, ikke bare enkeltord
 
-Hvis du velger `ei` og `jenta`, passer det ofte dårlig å skifte til `boken` og `solen` i neste avsnitt uten grunn. Hvis du velger `kasta`, bør du ikke gli over til `kastet` tilfeldig. Radikalt bokmål blir tydeligst når valga danner mønster.
+Hvis du velger *ei* og *jenta*, passer det ofte dårlig å skifte til *boken* og *solen* i neste avsnitt uten grunn. Hvis du velger *kasta*, bør du ikke gli over til *kastet* tilfeldig. Radikalt bokmål blir tydeligst når valga danner mønster.
 
 ### 3. Ikke bland radikalt bokmål med nynorsk
 
-Mange LLM-er prøver å bli radikale ved å gli over i nynorsk. Det gir feil resultat. `jenta`, `boka`, `kasta`, `skreiv` og `sjøl` er radikalt bokmål. `jenta`, `boka`, `kasta`, `skreiv` og `sjølv` er ei blanding av bokmål og nynorsk. Hold deg til bokmålsformene.
+Mange LLM-er prøver å bli radikale ved å gli over i nynorsk. Det gir feil resultat. *jenta*, *boka*, *kasta*, *skreiv* og *sjøl* er radikalt bokmål. *jenta*, *boka*, *kasta*, *skreiv* og *sjølv* er ei blanding av bokmål og nynorsk. Hold deg til bokmålsformene.
 
 ### 4. Bevar brukerens preferanser
 
 Brukeren kan ønske ei bestemt blanding, for eksempel:
 
-- `ei` og `-a`, men ikke diftonger
-- `fram` og `sjøl`, men `vet` i stedet for `veit`
+- *ei* og *-a*, men ikke diftonger
+- *fram* og *sjøl*, men *vet* i stedet for *veit*
 - radikale former i løpende tekst, men konservative former i sitater eller navn
 
 En god modell overstyrer ikke dette. Den følger det.
 
 ### 5. Vær forsiktig med overgeneralisering
 
-Ikke alle substantiv og ikke alle verb følger de samme radikale mønstra. Det går ikke an å sette `-a` på alt og kalle det radikalt bokmål. Når du er usikker, slå opp forma.
+Ikke alle substantiv og ikke alle verb følger de samme radikale mønstra. Det går ikke an å sette *-a* på alt og kalle det radikalt bokmål. Når du er usikker, slå opp forma.
 
 ## Regler og prinsipper med eksempler
 
-### Hunkjønn og artikkelen `ei`
+### Substantiv hunkjønn
 
-Et av de tydeligste trekka i radikalt bokmål er at hunkjønn brukes aktivt, både med artikkelen `ei` og med `-a` i bestemt form entall.
+Et av de tydeligste trekka i radikalt bokmål er at hunkjønn brukes aktivt, både med artikkelen *ei* og med *-a* i bestemt form entall.
 
-Eksempler:
+Bøyningsmønster:
 
-- `ei jente`, `jenta`
-- `ei bok`, `boka`
-- `ei sol`, `sola`
-- `ei dør`, `døra`
-- `ei oppgave`, `oppgava`
+- *ei jente*, *jenta*
+- *ei bok*, *boka*
+- *ei sol*, *sola*
+- *ei dør*, *døra*
+- *ei oppgave*, *oppgava*
 
-Dette mønsteret gjelder også mange ord på `-ing`, `-ning` og `-het`:
-
-- `meldinga`
-- `løsninga`
-- `regjeringa`
-- `åpninga`
-- `leiligheta`
-- `myndigheta`
-- `offentligheta`
+Dette mønsteret gjelder også mange ord på *-ing*, *-ning* og *-het*.
 
 For en LLM er hovedregelen enkel: hvis du først bruker radikalt hunkjønn, bruk det gjennom teksten der det passer.
 
-Flere eksempelpar: `en bok - boka`, `en dør - døra`, `en gate - gata`, `en hytte - hytta`, `en stue - stua`, `en kake - kaka`, `en natt - natta`, `en bygd - bygda`
+Flere eksempelpar: *en bok - boka*, *en dør - døra*, *en gate - gata*, *en hytte - hytta*, *en stue - stua*, *en kake - kaka*, *en natt - natta*, *en bygd - bygda*
 
-Korte setningseksempler:
+Eksempler på hunkjønnsord: *avisa*, *blokka*, *boka*, *brua*, *bygda*, *bygninga*, *bølga*, *børsa*, *bøtta*, *dama*, *dokka*, *drifta*, *dua*, *døra*, *elva*, *enga*, *evna*, *fella*, *flata*, *flua*, *fløyta*, *forandringa*, *forklaringa*, *forma*, *fortellinga*, *frakta*, *furua*, *gata*, *gava*, *greina*, *grensa*, *gropa*, *gruppa*, *gryta*, *grøfta*, *gåsa*, *handa*, *heia*, *helga*, *helsa*, *historia*, *hytta*, *hånda*, *høna*, *jakka*, *jenta*, *jorda*, *kaka*, *kassa*, *kirka*, *kista*, *klokka*, *kona*, *krisa*, *kråka*, *kua*, *kvinna*, *lampa*, *linja*, *lista*, *lomma*, *lua*, *lukta*, *lønna*, *makta*, *marka*, *mugga*, *musa*, *mølla*, *natta*, *nota*, *nåla*, *oppgava*, *pakka*, *panna*, *plata*, *pumpa*, *rekka*, *renna*, *renta*, *rota*, *røra*, *saka*, *senga*, *setninga*, *sida*, *skia*, *skildringa*, *skrifta*, *skåla*, *sletta*, *smørja*, *snella*, *sola*, *stranda*, *strømpa*, *stua*, *søstra*, *tanna*, *tavla*, *tegninga*, *tida*, *trappa*, *uka*, *utviklinga*, *verda*, *veska*, *visa*, *volla*, *vogga*, *vurderinga*, *åra*
 
-- `Jenta la boka på hylla og lukka døra.`
-- `Sola kom fram over bygda tidlig om morgenen.`
-- `Hun satte kaka på bordet i stua.`
+Hunkjønnsord på *-ing* og *-ning*: *beretninga*, *etableringa*, *finansieringa*, *forklaringa*, *fortellinga*, *hoppinga*, *kastinga*, *legninga*, *løsninga*, *meldinga*, *overbevisninga*, *regjeringa*, *setninga*, *tegninga*, *treninga*, *utbygginga*, *utviklinga*, *vurderinga*, *åpninga*
 
-### Intetkjønn i bestemt flertall på `-a`
+Hunkjønnsord på *-het*: *avhengigheta*, *friheta*, *kjærligheta*, *leiligheta*, *myndigheta*, *offentligheta*, *sikkerheta*, *virksomheta*
 
-Mange intetkjønnsord kan ha `-a` i bestemt flertall. Dette er et svært typisk radikalt trekk.
+Setningseksempler:
 
-Eksempler: `barna`, `orda`, `husa`, `språka`, `råda`, `teatra`, `resultata`, `problema`, `eksempla`, `anlegga`
+- *Jenta la boka på hylla og lukka døra.*
+- *Sola kom fram over bygda tidlig om morgenen.*
+- *Hun satte kaka på bordet i stua.*
 
-Dette er ikke det samme som å bruke `-a` på alt. Bestemt entall er fortsatt ofte `huset`, `ordet`, `språket`, `resultatet`.
+### Intetkjønn med bestemt form flertall på *-a*
 
-Flere eksempelpar: `et land - landa`, `et brev - breva`, `et bilde - bilda`, `et kart - karta`, `et spørsmål - spørsmåla`, `et vindu - vindua`, `et rom - romma`, `et møte - møta`
+Mange intetkjønnsord kan ha *-a* i bestemt flertall.
 
-Korte setningseksempler:
+*abonnementa*, *anlegga*, *banda*, *barna*, *behova*, *bilda*, *blada*, *blikka*, *borda*, *breva*, *brudda*, *buda*, *dyra*, *eksempla*, *fata*, *felta*, *fjella*, *flya*, *folka*, *forholda*, *forslaga*, *forsøka*, *frøa*, *grunnlaga*, *hulla*, *husa*, *innlegga*, *kapitla*, *karta*, *knea*, *krava*, *kursa*, *laga*, *landa*, *ledda*, *løpa*, *låra*, *midla*, *møta*, *måla*, *navna*, *orda*, *problema*, *punkta*, *resultata*, *romma*, *råda*, *selskapa*, *sentra*, *skia*, *skipa*, *slaga*, *spanna*, *spilla*, *spørsmåla*, *språka*, *stega*, *stoffa*, *svara*, *taka*, *talla*, *teatra*, *tilfella*, *tilbuda*, *tiltaka*, *tinga*, *tipsa*, *trekka*, *trinna*, *utlegga*, *utvalga*, *valga*, *verka*, *verktøya*, *vilkåra*, *vindua*, *våpna*, *øya*, *øyeblikka*, *åra*
 
-- `Spørsmåla kom tett, men svara var uklare.`
-- `Bilda og karta lå utover bordet.`
-- `Romma i huset var små, men vindua var store.`
+Setningseksempler:
 
-### Svake verb med `-a` i fortid
+- *Spørsmåla kom tett, men svara var uklare.*
+- *Bilda og karta lå utover bordet.*
+- *Romma i huset var små, men vindua var store.*
 
-Mange svake verb kan ha `-a` i preteritum og perfektum partisipp. Dette er kanskje det mest synlige verbtrekket i radikalt bokmål.
+### Svake verb på *-a* i fortid
 
-Mønster:
+Mange svake verb kan ha *-a* i preteritum og perfektum partisipp. Dette er kanskje det mest synlige verbtrekket i radikalt bokmål.
 
-- `å kaste - kaster - kasta - har kasta`
-- `å åpne - åpner - åpna - har åpna`
+Bøyingsmønster:
 
-Vanlige eksempler: `henta`, `kasta`, `hoppa`, `jobba`, `klaga`, `laga`, `mista`, `regna`, `sletta`, `slutta`, `starta`, `venta`, `åpna`
+- *å kaste - kaster - kasta - har kasta*
+- *å åpne - åpner - åpna - har åpna*
 
-Her er det viktig å holde fast ved bokmålet. `kasta` er bokmål. `kastae` eller andre hjemmelaga blandingsformer er ikke det.
+Eksempler: *dytta*, *droppa*, *handla*, *henta*, *hevda*, *hoppa*, *jobba*, *kasta*, *klaga*, *laga*, *løfta*, *malta*, *mista*, *ordna*, *pakka*, *prata*, *regna*, *rydda*, *sletta*, *slappa*, *slutta*, *snakka*, *starta*, *trena*, *tvitra*, *venta*, *virka*, *åpna*, *ydmyka*
 
-Flere mønster:
+Setningseksempler:
 
-- `å snakke - snakker - snakka - har snakka`
-- `å prate - prater - prata - har prata`
-- `å virke - virker - virka - har virka`
-- `å smelte - smelter - smelta - har smelta`
-- `å rydde - rydder - rydda - har rydda`
-- `å ordne - ordner - ordna - har ordna`
+- *Hun snakka med læreren og ordna avtalen med en gang.*
+- *Det virka lovende først, men stemninga smelta bort.*
+- *Vi rydda rommet og pakka sakene før vi dro.*
 
-Korte setningseksempler:
+Noen verb kan ha både *-a* og *-de* som preteritum: *laga*/*lagde*
 
-- `Hun snakka med læreren og ordna avtalen med en gang.`
-- `Det virka lovende først, men stemninga smelta bort.`
-- `Vi rydda rommet og pakka sakene før vi dro.`
-
-### Partisipper på `-a`
+### Partisipper på *-a*
 
 Det samme mønsteret dukker opp i partisipper og adjektiviske partisipper:
 
-- `lukka dører`
-- `stressa elever`
-- `forelska folk`
-- `egna tiltak`
-- `beskytta område`
-- `velutvikla språk`
+- *lukka dører*
+- *stressa elever*
+- *forelska folk*
+- *egna tiltak*
+- *beskytta område*
+- *velutvikla språk*
 
 Dette gir ofte teksten et tydelig radikalt preg uten at syntaksen trenger å endres.
 
 Flere setningseksempler:
 
-- `De gikk inn gjennom den lukka porten.`
-- `En stressa lærer rakk så vidt møtet.`
-- `Et godt egna tiltak kan gi raske resultater.`
-- `Hun var forelska, men prøvde å virke rolig.`
+- *De gikk inn gjennom den lukka porten.*
+- *En stressa lærer rakk så vidt møtet.*
+- *Et godt egna tiltak kan gi raske resultater.*
+- *Hun var forelska, men prøvde å virke rolig.*
+
+Ordliste: *beskytta*, *egna*, *forelska*, *forankra*, *forenkla*, *fornya*, *forsterka*, *gira*, *lukka*, *løfta*, *malta*, *rusa*, *stenga*, *stressa*, *trøtta*, *utvida*, *velutvikla*, *åpna*, *avsløra*, *belasta*
 
 ### Diftonger i vanlige ord
 
-Diftongene `ei`, `au` og `øy` er typiske i radikalt bokmål. Mange LLM-er kjenner disse formene, men bruker dem for lite eller for tilfeldig.
+Diftongene *ei*, *au* og *øy* er typiske i radikalt bokmål. Mange LLM-er kjenner disse formene, men bruker dem for lite eller for tilfeldig.
 
-Vanlige eksempler: `aleine`, `bein`, `beist`, `bleik`, `brei`, `feit`, `grein`, `heil`, `heit`, `heim`, `leike`, `leite`, `meine`, `reim`, `reip`, `reir`, `sein`, `skeiv`, `steik`, `stein`, `veik`, `graut`, `laus`, `røyk`
+Ordliste: *aleine*, *bein*, *beist*, *bleik*, *brei*, *feit*, *grein*, *heil*, *heile*, *heit*, *heim*, *heime*, *leike*, *leite*, *meine*, *rein*, *reim*, *reip*, *reir*, *sein*, *seint*, *skei*, *skeiv*, *steik*, *stein*, *veik*, *graut*, *laus*, *røyk*
 
-I ei radikal bokmålstekst kan det være naturlig å skrive `seinere` og `aleine`, men det er ikke nødvendig å bruke alle diftongmulighetene samtidig.
+I en radikal bokmålstekst kan det være naturlig å skrive *seinere* og *aleine*, men det er ikke nødvendig å bruke alle diftongmulighetene samtidig.
 
-Korte setningseksempler:
+Setningseksempler:
 
-- `Han blei aleine igjen i det gamle huset.`
-- `Det lå stein og bein utover den breie stien.`
-- `Hun kom seinere heim og la fra seg den feite boka.`
+- *Han blei aleine igjen i det gamle huset.*
+- *Det lå stein og bein utover den breie stien.*
+- *Hun kom seinere heim og la fra seg den feite boka.*
 
 ### Sterke verb med radikal preteritum
 
 Mange sterke verb kan ha radikale preteritumsformer med diftong.
 
-Eksempler: `beit`, `blei`, `dreiv`, `grein`, `greip`, `kneip`, `rei`, `reiv`, `skeit`, `sklei`, `skreik`, `skreiv`, `steig`, `svei`, `sveik`, `vrei`, `brøyt`, `fløyt`, `frøys`, `føyk`, `krøyp`, `nøys`, `nøyt`, `røyk`, `skøyt`, `skøyv`, `strøyk`, `tøyt`
+Eksempler: *beit*, *blei*, *dreiv*, *glei*, *gnei*, *grein*, *greip*, *heiv*, *kneip*, *lei*, *rei*, *reiv*, *seig*, *skeit*, *sklei*, *skreik*, *skreiv*, *sleit*, *smøyg*, *sneik*, *steig*, *svei*, *sveik*, *veik*, *vrei*, *brøyt*, *fløyt*, *frøys*, *føyk*, *gøyv*, *krøyp*, *nøys*, *nøyt*, *røyk*, *skøyt*, *skøyv*, *strøyk*, *tøyt*
 
-Presensforma `veit` hører også hjemme her.
+Presensforma *veit* hører også hjemme her.
 
-En modell bør være klar over at slike former er fullt normerte bokmålsformer, ikke nynorsk.
+Setningseksempler:
 
-Korte setningseksempler:
-
-- `Hun skreiv brevet seint på kvelden.`
-- `Han greip sekken og reiv opp døra.`
-- `Katten krøyp under bordet da det smalt.`
-- `Vannet frøys i røra før noen rakk å reagere.`
-- `De brøyt opp kista og skøyt fart ned bakken.`
+- *Hun skreiv brevet seint på kvelden.*
+- *Han greip sekken og reiv opp døra.*
+- *Katten krøyp under bordet da det smalt.*
+- *Vannet frøys i røra før noen rakk å reagere.*
+- *De brøyt opp kista og skøyt fart ned bakken.*
 
 ### Andre vanlige radikale ordformer
 
@@ -191,47 +176,52 @@ Radikalt bokmål består ikke bare av endelser. Mange enkeltord og ordgrupper ha
 
 Vanlige ord og mønster:
 
-- `sjøl`, `sjølve`
-- `mjøl`, `mjølk`
-- `fjøl`
-- `bru`, `bu`, `tru`
-- `sjuk`, `sjukehus`, `sjukmelding`
-- `mjuk`, `sju`, `tjue`, `tjukk`, `tjuv`
-- `fram`, `framover`, `framtida`
-- `gammal`
-- `høg`, `låg`, `veg`
-- `vatn`, `botn`, `jamn`
-- `kvit`, `kvile`, `kval`, `kvass`
-- `farge`
-- `golv`, `dokke`, `mold`, `molte`, `hogg`, `dogg`
-- `viss`, `verken`
-- `skau`
-- `åssen`
-- `sia`, som i `for tre år sia`
-- `høve`
-- `ba`, `ga`, `dro`, `sto` som valgfrie kortformer ved sida av `bad`, `gav`, `drog`, `stod`
+- *sjøl*, *sjølve*
+- *mjøl*, *mjølk*
+- *fjøl*
+- *bru*, *bu*, *tru*
+- *sjuk*, *sjukehus*, *sjukmelding*
+- *sdjup*, *mjuk*, *sju*, *tjue*, *tjukk*, *tjuv*
+- *fram*, *framover*, *framtida*, *fortida*
+- *gammal*
+- *høg*, *låg*, *veg*
+- *vatn*, *botn*, *jamn*
+- *kvit*, *kvile*, *kval*, *kvass*
+- *farge*
+- *golv*, *dokke*, *mold*, *molte*, *hogg*, *dogg*, *vogge*
+- *viss*, *verken*
+- *skau*
+- *åssen*
+- *bånn*
+- *sia*, som i *for tre år sia*
+- *høve*
+- *ba*, *ga*, *dro*, *sto* som valgfrie kortformer ved sida av *bad*, *gav*, *drog*, *stod*
+
+Former med *-a-* i adverb og uttrykk: *bakafor*, *frammafor*, *innafor*, *innafra*, *innabords*, *innalands*, *utafor*, *utaskjærs*
+
+Små former i adjektiv og pronomen: *lita*, *eiga*, *eige*, *eigne*, *anna*, *mi*, *di*, *si*
 
 Korte setningseksempler:
 
-- `Jeg gjorde det sjøl og sa det rett ut.`
-- `Mjølka sto på golvet ved sida av fjøla.`
-- `Han gikk fram og spurte åssen det sto til.`
-- `Det var kaldt ute ved vatnet, men utsikta var fin.`
-- `Den gamle vegen gikk fram gjennom skauen og ned mot brua.`
+- *Jeg gjorde det sjøl og sa det rett ut.*
+- *Mjølka sto på golvet ved sida av fjøla.*
+- *Han gikk fram og spurte åssen det sto til.*
+- *Det var kaldt ute ved vatnet, men utsikta var fin.*
+- *Den gamle vegen gikk fram gjennom skauen og ned mot brua.*
 
 ### Pronomen, possessiv og talemålsnære uttrykk
 
 Radikalt bokmål handler også om setningsbygning og småord.
 
-#### `han` som objektsform
+#### *han* som objektsform
 
-I bokmål kan `han` brukes både som subjekt og objekt.
+I bokmål kan *han* brukes både som subjekt og objekt.
 
 Eksempler:
 
-- `han kom tidlig`
-- `jeg så han`
-- `hun gikk sammen med han`
+- *han kom tidlig*
+- *jeg så han*
+- *hun gikk sammen med han*
 
 Dette er ei normert bokmålsløsning som ofte passer godt i radikalt bokmål.
 
@@ -241,190 +231,93 @@ Etterstilt possessiv er vanlig i talemålsnært bokmål og gir ofte teksten en m
 
 Eksempler:
 
-- `huset mitt`
-- `kortet ditt`
-- `husa våre`
-- `oppgava mi`
-- `stua di`
-- `jorda si`
+- *huset mitt*
+- *kortet ditt*
+- *husa våre*
+- *oppgava mi*
+- *stua di*
+- *jorda si*
 
 Foranstilt possessiv er også bokmål, men den etterstilte varianten ligger ofte nærmere radikalt bokmål:
 
-- `mitt hus`
-- `ditt kort`
-- `våre hus`
+- *mitt hus*
+- *ditt kort*
+- *våre hus*
 
 #### Flere måter å uttrykke eierskap på
 
 Disse mønstra kan alle finnes i bokmål:
 
-- `bilen til Eva`
-- `Evas bil`
-- `Eva sin bil`
+- *bilen til Eva*
+- *Evas bil*
+- *Eva sin bil*
 
-En LLM bør ikke late som om bare én av dem er mulig. Velg den løsninga som passer best med brukerens ønsker og resten av teksten.
+#### Valgfrie enkeltpar og nærstående former
 
-## Eksempelpar: konservativt og radikalt bokmål
+Noen former er nyttige å se i par, fordi modeller ofte kjenner bare den ene eller tror at den andre ikke er bokmål. Her er noen vanlige eksempel:
 
-Disse para kan hjelpe en modell å se forskjellen i praksis. Begge kolonnene er bokmål, men den høyre kolonna bruker mer radikale valg.
+- *sakne* og *savne*
+- *likne* og *ligne*
+- *atkomst* og *adkomst*
+- *atferd* og *adferd*
+- *mottaker* og *mottager*
+- *opptaker* og *opptager*
 
-- `en bok - ei bok`
-- `boken - boka`
-- `solen - sola`
-- `oppgaven - oppgava`
-- `døren - døra`
-- `språkene - språka`
-- `resultatene - resultata`
-- `kastet - kasta`
-- `åpnet - åpna`
-- `lukket - lukka`
-- `ble - blei`
-- `skrev - skreiv`
-- `frøs - frøys`
-- `vet - veit`
-- `selv - sjøl`
-- `melk - mjølk`
-- `frem - fram`
-- `gammel - gammal`
-- `vann - vatn`
-- `hjem - heim`
+Setningseksempler:
+
+- *Jeg sakna henne lenge etter at hun flytta.*
+- *Det likna mer på en unnskyldning enn ei forklaring.*
+- *Atkomsten til bygget var stengt hele uka.*
+- *Barnas atferd endra seg raskt da læreren kom inn.*
+- *Han brukte en enkel opptaker under intervjuet.*
+- *Museet fikk en ny mottaker for digitale signaler.*
+
 
 ## Eksempelsetninger
 
 Her er noen hele setninger som kan brukes som eksempelmodeller:
 
-- `Jenta tok med seg boka og gikk heim før det blei mørkt.`
-- `Vi snakka sammen lenge, men ingen fant noen enkel løsning.`
-- `Den gamle brua over elva var stengt etter at vannet frøys til.`
-- `Læreren skreiv opp spørsmåla på tavla mens elevene venta.`
-- `Hun så han med en gang og vinket fra døra.`
-- `Barna la klærne sine på golvet og løp ut i hagen.`
-- `Det var mange fine bilder, men de beste hang i gangen.`
-- `De ordna møta raskt og fikk svara før fristen gikk ut.`
-- `Jeg gjorde det sjøl, og resultatet blei bedre enn venta.`
-- `Han kom aleine, men gikk heim sammen med resten av laget.`
+- *Jenta tok med seg boka og gikk heim før det blei mørkt.*
+- *Vi snakka sammen lenge, men ingen fant noen enkel løsning.*
+- *Den gamle brua over elva var stengt etter at vannet frøys til.*
+- *Læreren skreiv opp spørsmåla på tavla mens elevene venta.*
+- *Hun så han med en gang og vinket fra døra.*
+- *Barna la klærne sine på golvet og løp ut i hagen.*
+- *Det var mange fine bilder, men de beste hang i gangen.*
+- *De ordna møta raskt og fikk svara før fristen gikk ut.*
+- *Jeg gjorde det sjøl, og resultatet blei bedre enn venta.*
+- *Han kom aleine, men gikk heim sammen med resten av laget.*
 
 ## Vanlige feil LLM-er gjør
 
 Her er feil som går igjen når modeller prøver å skrive radikalt bokmål:
 
-- De glir over i nynorsk. Typiske tegn er `ikkje`, `eg`, `me`, `dei`, `eitt`, `mykje`, `utan`, `saman`, `kjem`, adjektiv på `-leg`.
-- De blander normert bokmål med dialektstavning. Typiske tegn er `itte`, `hu`, `ække`, `bærre`, `ska`.
-- De bruker noen radikale former, men lar resten av teksten falle tilbake til mer konservativt bokmål uten mønster. Eksempel: `ei bok`, `jenta`, men `solen`, `boken`, `kastet` litt seinere.
-- De overdriver `-a` og setter endinga på ord som ikke har det mønsteret i bokmål.
+- De glir over i nynorsk. Typiske tegn er *ikkje*, *eg*, *me*, *dei*, *eitt*, *mykje*, *utan*, *saman*, *kjem*, adjektiv på *-leg*.
+- De blander normert bokmål med dialektstavning. Typiske tegn er *itte*, *hu*, *ække*, *bærre*, *ska*.
+- De bruker noen radikale former, men lar resten av teksten falle tilbake til mer konservativt bokmål uten mønster. Eksempel: *ei bok*, *jenta*, men *solen*, *boken*, *kastet* litt seinere.
+- De overdriver *-a* og setter endinga på ord som ikke har det mønsteret i bokmål.
 - De antar at alle diftongformer er tillatt bare fordi de ligner på nynorsk.
-- De behandler `skreiv`, `greip` og `krøyp` som om de var nynorskformer, og unngår dem av den grunnen.
-- De bruker `ham` konsekvent sjøl når brukeren ber om radikalt bokmål.
+- De behandler *skreiv*, *greip* og *krøyp* som om de var nynorskformer, og unngår dem av den grunnen.
+- De bruker *ham* konsekvent sjøl når brukeren ber om radikalt bokmål.
 - De kopierer ordformer fra brukerens dialekt i stedet for å holde seg til normert bokmål.
-- De gjør små blandingsfeil som `sjølv`, `heilt` i ellers bokmålsnær tekst, eller `veit` sammen med tydelige nynorskformer.
+- De gjør små blandingsfeil som *sjølv*, *heilt* i ellers bokmålsnær tekst, eller *veit* sammen med tydelige nynorskformer.
 
 Typiske rettinger:
 
-- `eg veit ikkje` -> `jeg veit ikke`
-- `me skreiv brevet i går` -> `vi skreiv brevet i går`
-- `hu kasta boka` -> `hun kasta boka`
-- `sjølv om det var seint` -> `sjøl om det var seint`
-- `me gjekk heim` -> `vi gikk heim`
-
-## Ordlister
-
-Listene under er ikke hele bokmålsnormen, men de dekker mange av de mest nyttige og synlige radikale mønstra. De bygger på normerte bokmålsformer og er laga for å gi LLM-er mange tydelige mønster å støtte seg på.
-
-### Substantiv hunkjønn bestemt form entall på `-a`
-
-`avisa`, `blokka`, `boka`, `brua`, `bygda`, `bygninga`, `bølga`, `børsa`, `bøtta`, `dama`, `dokka`, `drifta`, `dua`, `døra`, `elva`, `enga`, `evna`, `fella`, `flata`, `flua`, `fløyta`, `forandringa`, `forklaringa`, `forma`, `fortellinga`, `frakta`, `furua`, `gata`, `gava`, `greina`, `grensa`, `gropa`, `gruppa`, `gryta`, `grøfta`, `gåsa`, `handa`, `heia`, `helga`, `helsa`, `historia`, `hytta`, `hånda`, `høna`, `jakka`, `jenta`, `jorda`, `kaka`, `kassa`, `kirka`, `kista`, `klokka`, `kona`, `krisa`, `kråka`, `kua`, `kvinna`, `lampa`, `linja`, `lista`, `lomma`, `lua`, `lukta`, `lønna`, `makta`, `marka`, `mugga`, `musa`, `mølla`, `natta`, `nota`, `nåla`, `oppgava`, `pakka`, `panna`, `plata`, `pumpa`, `rekka`, `renna`, `renta`, `rota`, `røra`, `saka`, `senga`, `setninga`, `sida`, `skia`, `skildringa`, `skrifta`, `skåla`, `sletta`, `smørja`, `snella`, `sola`, `stranda`, `strømpa`, `stua`, `søstra`, `tanna`, `tavla`, `tegninga`, `tida`, `trappa`, `uka`, `utviklinga`, `verda`, `veska`, `visa`, `volla`, `vogga`, `vurderinga`, `åra`
-
-### Substantiv hunkjønn på `-ing` og `-ning`
-
-`beretninga`, `etableringa`, `finansieringa`, `forklaringa`, `fortellinga`, `hoppinga`, `kastinga`, `legninga`, `løsninga`, `meldinga`, `overbevisninga`, `regjeringa`, `setninga`, `tegninga`, `treninga`, `utbygginga`, `utviklinga`, `vurderinga`, `åpninga`
-
-### Substantiv hunkjønn på `-het`
-
-`avhengigheta`, `friheta`, `kjærligheta`, `leiligheta`, `myndigheta`, `offentligheta`, `sikkerheta`, `virksomheta`
-
-### Substantiv intetkjønn i bestemt flertall på `-a`
-
-`abonnementa`, `banda`, `barna`, `behova`, `bilda`, `blada`, `blikka`, `borda`, `breva`, `brudda`, `buda`, `dyra`, `eksempla`, `fata`, `felta`, `fjella`, `flya`, `folka`, `forholda`, `forslaga`, `forsøka`, `frøa`, `grunnlaga`, `hulla`, `husa`, `innlegga`, `kapitla`, `karta`, `knea`, `krava`, `kursa`, `landa`, `laga`, `ledda`, `løpa`, `låra`, `midla`, `møta`, `måla`, `navna`, `orda`, `problema`, `punkta`, `resultata`, `romma`, `råda`, `selskapa`, `sentra`, `skia`, `skipa`, `slaga`, `spanna`, `spilla`, `spørsmåla`, `språka`, `stega`, `stoffa`, `svara`, `taka`, `talla`, `teatra`, `tilfella`, `tilbuda`, `tiltaka`, `tinga`, `tipsa`, `trekka`, `trinna`, `utlegga`, `utvalga`, `valga`, `verka`, `verktøya`, `vilkåra`, `vindua`, `våpna`, `øya`, `øyeblikka`, `åra`
-
-### Svake verb påd `-a`
-
-`dytta`, `droppa`, `handla`, `hevda`, `hoppa`, `jobba`, `klaga`, `laga`, `løfta`, `malta`, `mista`, `ordna`, `pakka`, `prata`, `regna`, `rydda`, `sletta`, `slappa`, `slutta`, `snakka`, `starta`, `stenga`, `trena`, `tvitra`, `venta`, `virka`, `åpna`, `ydmyka`
-
-### Partisipper på `-a`
-
-`beskytta`, `egna`, `forelska`, `forankra`, `forenkla`, `fornya`, `forsterka`, `gira`, `lukka`, `løfta`, `malta`, `rusa`, `stenga`, `stressa`, `trøtta`, `utvida`, `velutvikla`, `åpna`, `avsløra`, `belasta`
-
-### Diftongord
-
-`aleine`, `bein`, `beist`, `bleik`, `brei`, `feit`, `grein`, `heil`, `heile`, `heit`, `heim`, `heime`, `leike`, `leite`, `meine`, `rein`, `reim`, `reip`, `reir`, `sein`, `seint`, `skei`, `skeiv`, `steik`, `stein`, `veik`, `graut`, `laus`, `røyk`
-
-### Sterke verb i preteritum
-
-`beit`, `blei`, `dreiv`, `glei`, `gnei`, `grein`, `greip`, `heiv`, `kneip`, `lei`, `rei`, `reiv`, `seig`, `skeit`, `sklei`, `skreik`, `skreiv`, `sleit`, `smøyg`, `sneik`, `steig`, `svei`, `sveik`, `veik`, `vrei`, `brøyt`, `fløyt`, `frøys`, `føyk`, `gøyv`, `krøyp`, `nøys`, `nøyt`, `røyk`, `skøyt`, `skøyv`, `strøyk`, `tøyt`
-
-Presentforma `veit` hører også hjemme her.
-
-### Andre radikale enkeltformer
-
-`sjøl`, `sjølve`, `mjøl`, `mjølk`, `fjøl`, `bru`, `bu`, `tru`, `djup`, `mjuk`, `sju`, `sjuk`, `tjue`, `tjukk`, `tjuv`, `farge`, `golv`, `hogg`, `mold`, `dokke`, `vogge`, `vatn`, `botn`, `jamn`, `høg`, `låg`, `veg`, `fram`, `framme`, `framtida`, `fortida`, `gammal`, `høve`, `sia`, `skau`, `åssen`, `viss`, `verken`, `kvit`, `kvile`, `bånn`
-
-### Former med `-a-` i adverb og uttrykk
-
-`bakafor`, `frammafor`, `innafor`, `innafra`, `innabords`, `innalands`, `utafor`, `utaskjærs`
-
-Setningseksempler:
-
-- `Det sto folk utafor døra og venta.`
-- `De holdt seg innafor gjerdet hele kvelden.`
-- `Han kom frammafor oss i køen uten å si fra.`
-- `Båten lå utaskjærs og venta på bedre vær.`
-
-### Valgfrie enkeltpar og nærstående former
-
-Noen former er nyttige å se i par, fordi modeller ofte kjenner bare den ene eller tror at den andre ikke er bokmål. Her er noen vanlige eksempel:
-
-- `sakne` og `savne`
-- `likne` og `ligne`
-- `atkomst` og `adkomst`
-- `atferd` og `adferd`
-- `mottaker` og `mottager`
-- `opptaker` og `opptager`
-
-Slike par viser at radikalt bokmål ikke bare handler om a-endinger og diftonger. Det handler også om hvilke normerte enkeltformer en velger når bokmålet åpner for flere muligheter.
-
-Setningseksempler:
-
-- `Jeg sakna henne lenge etter at hun flytta.`
-- `Det likna mer på en unnskyldning enn ei forklaring.`
-- `Atkomsten til bygget var stengt hele uka.`
-- `Barnas atferd endra seg raskt da læreren kom inn.`
-- `Han brukte en enkel opptaker under intervjuet.`
-- `Museet fikk en ny mottaker for digitale signaler.`
-
-### Små former i adjektiv og pronomen
-
-`lita`, `eiga`, `eige`, `eigne`, `anna`, `mi`, `di`, `si`, `våre`, `han` som objektsform
-
-### Nyttige uttrykksmønster
-
-- `jeg så han`
-- `hun gikk sammen med han`
-- `huset mitt`
-- `kortet ditt`
-- `oppgava mi`
-- `stua di`
-- `jorda si`
-- `bilen til Eva`
-- `Eva sin bil`
+- *eg veit ikkje* -> *jeg veit ikke*
+- *me skreiv brevet i går* -> *vi skreiv brevet i går*
+- *hu kasta boka* -> *hun kasta boka*
+- *sjølv om det var seint* -> *sjøl om det var seint*
+- *me gjekk heim* -> *vi gikk heim*
 
 ## Praktisk oppskrift for en LLM
 
 Når du får beskjed om å skrive radikalt bokmål, kan du bruke denne sjekklista:
 
-1. Bestem om teksten skal bruke tydelig hunkjønn med `ei` og `-a`.
-2. Bestem om teksten også skal bruke a-verb som `kasta`, `henta`, `åpna`.
-3. Bestem om diftonger som `sein`, `stein`, `aleine`, `skreiv`, `frøys` skal være med.
-4. Legg inn vanlige radikale småord og enkeltformer som `sjøl`, `fram`, `mjølk`, `gammal`, `vatn` hvis de passer.
+1. Bestem om teksten skal bruke tydelig hunkjønn med *ei* og *-a*.
+2. Bestem om teksten også skal bruke a-verb som *kasta*, *henta*, *åpna*.
+3. Bestem om diftonger som *sein*, *stein*, *aleine*, *skreiv*, *frøys* skal være med.
+4. Legg inn vanlige radikale småord og enkeltformer som *sjøl*, *fram*, *mjølk*, *gammal*, *vatn* hvis de passer.
 5. Hold deg til normert bokmål gjennom hele teksten.
 6. Sjekk ord du er usikker på, i Bokmålsordboka eller ei anna oppdatert normkilde.
 
@@ -457,3 +350,4 @@ Sjekk ordet hvis:
 - [Wikipedia: Radikalt bokmål](https://no.wikipedia.org/wiki/Radikalt_bokm%C3%A5l)
 - [Landslaget for språklig samling: Å skrive radikalt bokmål](https://4cc51928-4f6f-4e99-9711-cc9362f45f88.filesusr.com/ugd/e08463_41d704cd5348464ab750f1660e71a315.pdf)
 - [Bokmålsordboka](https://ordbokene.no/nob/bm)
+
