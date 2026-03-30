@@ -135,11 +135,11 @@ Ikke tillatte former: *~~gjessa~~*, *~~musa~~* (bestemt form flertall av *mus*),
 
 ### Noen substantiv som bare er hankjønn
 
-Disse er hunkjønn i noen talemål, men bare hankjønn i bokmål:
+Enkelte ord kan oppfattes som hunkjønn, men er bare hankjønn i bokmål.
 
-*scenen*
+Noen ord på *-e*: *basen*, *scenen*
 
-*dialekten*, *oversikten*
+Noen ord på *-kt*: *dialekten*, *oversikten*
 
 ### Svake verb på *-a* i fortid
 
