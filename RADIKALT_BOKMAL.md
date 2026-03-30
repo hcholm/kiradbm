@@ -234,6 +234,8 @@ Radikalt bokmål består ikke bare av endelser. Mange enkeltord og ordgrupper ha
 
 Enkelte adjektiv og pronomen: *lita*, *eiga*, *eige*, *eigne*, *anna*, *mi*, *di*, *si*
 
+Adjektivet *lita* står til hunkjønnsord: *ei lita jente*, *lita bok*, *døra er lita*. Det går også å bruke *liten* i stedet: *ei liten jente*, *liten bok*, *døra er liten*.
+
 Setningseksempler:
 
 - *Jeg gjorde det sjøl og sa det rett ut.*
