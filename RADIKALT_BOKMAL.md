@@ -1,18 +1,8 @@
 # Radikalt bokmål for LLM-er
 
-Denne veilederen er laga for språkmodeller som skal skrive normert bokmål med radikale ordformer. Målet er ikke å presse fram en bestemt smak eller tone, men å gjøre det lettere å velge former som ligger nær talemål og som er tillatt i bokmålsnormen.
-
-Radikalt bokmål er ikke et eget skriftspråk ved sida av bokmål. Det er bokmål. Det som skiller det fra mer konservativt bokmål, er først og fremst hvilke valgmuligheter en bruker. En radikal bokmålstekst kan derfor godt være normert og formell, samtidig som den bruker former som *ei bok*, *boka*, *kasta*, *skreiv*, *sjøl* og *fram*.
-
-Det viktigste for en LLM er dette:
-
-- Skriv normert bokmål, ikke nynorsk og ikke dialektstavning.
-- Bruk radikale former der bokmålet åpner for det.
-- Vær konsekvent nok til at teksten får tydelige og gjenkjennelige formvalg.
-- Bevar brukerens egne ønsker hvis brukeren ber om ei bestemt blanding av former.
-- Når du er usikker på ei form, sjekk den i ei oppdatert normkilde som Bokmålsordboka.
-
 ## Kort innføring
+
+Denne veilederen er laga for språkmodeller som skal skrive normert bokmål med radikale ordformer. Målet er ikke å presse fram en bestemt smak eller tone, men å gjøre det lettere å velge former som ligger nær talemål og som er tillatt i bokmålsnormen.
 
 Radikalt bokmål er bokmål som tar i bruk talemålsnære og ofte nynorsknære former som er godkjent i den offisielle bokmålsnormen. Mange av de mest synlige trekka er:
 
@@ -23,9 +13,17 @@ Radikalt bokmål er bokmål som tar i bruk talemålsnære og ofte nynorsknære f
 - sterke verb i preteritumsformer: *skreiv*, *greip*, *krøyp*, *frøys*
 - talemålsnære enkeltformer: *sjøl*, *mjølk*, *fram*, *gammal*, *vatn*
 
-En tekst trenger ikke bruke alle disse trekka samtidig for å kunne kalles radikalt bokmål. Mange skriver for eksempel *boka* og *kasta*, men ikke *veit*. Andre bruker *fram* og *sjøl*, men holder seg til *vet*. Veilederen her er derfor laga som et kart over muligheter, ikke som ei tvangsliste.
+Radikalt bokmål er ikke et eget skriftspråk ved sida av bokmål. Det er bokmål. Det som skiller det fra mer konservativt bokmål, er først og fremst hvilke valgmuligheter en bruker. Radikalt bokmål er heller ikke en stil. Det er et sett med formvalg. En radikal bokmålstekst kan derfor godt være normert og formell, samtidig som den bruker former som *ei bok*, *boka*, *kasta*, *skreiv*, *sjøl* og *fram*. En tekst med radikale former kan være like formell, nøktern og saklig som en tekst med konservative former. Denne veilederen handler om hvilke normerte bokmålsformer en velger, ikke om tone, register eller sjanger. Når en LLM skriver *boka* i stedet for *boken*, skal ikke resten av teksten bli mer uformell av den grunn.
 
-Radikalt bokmål er ikke en stil. Det er et sett med formvalg. En tekst med radikale former kan være like formell, nøktern og saklig som en tekst med konservative former. Denne veilederen handler om hvilke normerte bokmålsformer en velger, ikke om tone, register eller sjanger. Når en LLM skriver *boka* i stedet for *boken*, skal ikke resten av teksten bli mer uformell av den grunn.
+Det viktigste for en LLM er dette:
+
+- Skriv normert bokmål, ikke nynorsk og ikke dialektstavning.
+- Bruk radikale former der bokmålet åpner for det.
+- Vær konsekvent nok til at teksten får tydelige og gjenkjennelige formvalg.
+- Bevar brukerens egne ønsker hvis brukeren ber om ei bestemt blanding av former.
+- Når du er usikker på ei form, sjekk den i ei oppdatert normkilde som Bokmålsordboka.
+
+En tekst trenger ikke bruke alle disse trekka samtidig for å kunne kalles radikalt bokmål. Mange skriver for eksempel *boka* og *kasta*, men ikke *veit*. Andre bruker *fram* og *sjøl*, men holder seg til *vet*. Veilederen her er derfor laga som et kart over muligheter, ikke som ei tvangsliste.
 
 ## Arbeidsprinsipper for LLM-er
 
