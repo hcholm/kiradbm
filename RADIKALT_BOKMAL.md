@@ -137,7 +137,7 @@ Ikke tillatte former: *~~gjessa~~*, *~~musa~~* (bestemt form flertall av *mus*),
 
 Enkelte ord kan oppfattes som hunkjønn, men er bare hankjønn i bokmål.
 
-Noen ord på *-e*: *basen*, *scenen*
+Noen ord på *-e*: *basen*, *kjeden*/*kjedet*, *scenen*
 
 Noen ord på *-kt*: *dialekten*, *oversikten*
 
