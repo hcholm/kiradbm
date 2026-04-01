@@ -342,3 +342,11 @@ Sjekk ordet hvis:
 - [Bokmålsordboka](https://ordbokene.no/nob/bm)
 - [Nasjonalbiblioteket, Språkbanken: Norsk ordbank - bokmål 2005](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-5/)
 
+# Annet
+
+Bruk norske typografiske konvensjoner:
+- Hermetegn: «tekst»
+- Sitat i sitat: «tekst ‘ord’ tekst»
+- Apostrof: ’
+- Ellipse: …
+- Tankestrek: – (aldri lang tankestrek —)
